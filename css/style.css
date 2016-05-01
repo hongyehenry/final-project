@@ -87,18 +87,22 @@ img.icon{
 .nav li:hover span{
 	padding-top:20px;
 }
-.hm{
+.meal{
 	background:rgba(29, 162, 168, 0.8);
 }
-.fb{
+.movie{
 	background:rgba(255, 89, 76, 0.8);
 }
-.gp{
+.shopping{
 	background:rgba(47, 31, 64, 0.8);
 }
-.tw{
+.fitness{
 	background:rgba(254, 162, 14, 0.8);
 }
-.cl{
+.tourism{
 	background:rgba(93, 181, 29, 0.8);
+}
+.icon{
+    height: 50px;
+    width: 50px;
 }
