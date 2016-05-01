@@ -30,7 +30,7 @@ h1{
 	width:750px;
 }
 .nav li{
-	width:145px;
+	width:125px;
 	height:180px;
 	display:inline-block;
 	float:left;
@@ -43,19 +43,19 @@ h1{
 	opacity:1;
 	height:190px;
 }
-.nav li.hm:hover{
+.nav li.meal:hover{
 	border-bottom:4px solid rgba(11, 132, 138, 1);
 }
-.nav li.fb:hover{
+.nav li.movie:hover{
 	border-bottom:4px solid rgba(241, 83, 70, 1);
 }
-.nav li.gp:hover{
+.nav li.shopping:hover{
 	border-bottom:4px solid rgba(32, 16, 49, 1);
 }
-.nav li.tw:hover{
+.nav li.fitness:hover{
 	border-bottom:4px solid rgba(228, 148, 7, 1);
 }
-.nav li.cl:hover{
+.nav li.tourism:hover{
 	border-bottom:4px solid rgba(67, 138, 15, 1);
 }
 img.icon{
@@ -102,7 +102,10 @@ img.icon{
 .tourism{
 	background:rgba(93, 181, 29, 0.8);
 }
+.drink{
+    background: #6161C1;
+}
 .icon{
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
 }
