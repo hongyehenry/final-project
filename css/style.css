@@ -116,8 +116,12 @@ span p{
     font-size: 25px;
 }
 .logo{
-    height:50px;
-    width:50px;
+    height:160px;
+    width:160px;
+}
+.logo p{
+    font-size: 20px;
+    font-family: sans-serif;
 }
 .row{
     height:150px;
