@@ -25,7 +25,7 @@ h1{
 	height: 200px;
 	border:12px solid #DDE0CA;
 }
-#wrapper p{
+.logo p{
     vertical-align: middle;
     color:#337ab7;
 }
