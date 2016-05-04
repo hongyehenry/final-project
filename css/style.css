@@ -47,6 +47,9 @@ h1{
 	margin:0 126px;
 	width:750px;
 }
+.nav p{
+    font-size:35px;
+}
 .nav li{
 	width:230px;
 	height:200px;
@@ -98,12 +101,12 @@ img.icon{
 	display:block;
 	padding-top:10px;
 	color:rgba(255, 255, 255, 1);
-	font-size:0.9em;
+	font-size:25px;
 	transition:padding-top 0.4s;
 	-webkit-transition:padding-top 0.4s;
 }
 .nav li:hover span{
-	padding-top:20px;
+	padding-top:30px;
 }
 .meal{
 	background:rgba(29, 162, 168, 0.8);
