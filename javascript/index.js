@@ -99,11 +99,13 @@ var LoginModalController = {
         base.closeElement.on("click", function (e) {
             e.preventDefault();
             $(".logmod").hide();
+            $(".navbar-fixed-bottom").show();
         });
         
         base.loginElement.on("click", function (e) {
             e.preventDefault();
             $(".logmod").show();
+            $(".navbar-fixed-bottom").hide();
         });
         
         
