@@ -38,7 +38,7 @@ h1{
 	width:200px;
 	height:180px;
 	display:inline-block;
-    left: 30px;
+    left: 10px;
 	cursor:pointer;
 	transition:all 0.4s;
 	-webkit-transition:all 0.4s;
@@ -134,4 +134,12 @@ span p{
 }
 .fa fa-home fa-5x{
     color:aqua;
+}
+.main{
+    width: 728px;
+	margin: 60px auto;
+	background: #fff;
+	padding: 10px;
+	height: 800px;
+	border:12px solid #DDE0CA;
 }
