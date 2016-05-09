@@ -28,6 +28,9 @@ h1{
 .logo p{
     vertical-align: middle;
     color:#337ab7;
+    position: absolute;
+    left:100px;
+    
 }
 #login{
     position: absolute;
