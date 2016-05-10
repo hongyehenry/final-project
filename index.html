@@ -36,7 +36,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
       
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        
+        <p id="title">WeConnect</p>
     </nav>
     <a id="login" href="login-sign-in/login.html">Log in</a>
 	<h1>WeConnect</h1>
@@ -87,8 +87,8 @@
     <div class="main" ng-controller="HomeController">
         <div class="container">
 
-        <div class="email" ng-repeat="email in emails">
-          <span class="from">{{email.from}} </span> <span class="subject">{{email.subject}} </span><span class="date">{{email.datatime | date}} </span>
+        <div class="activity" ng-repeat="activity in activities">
+          <span class="user_avatar"><img class="avatar" ng-src="http://www.miscellaneoushi.com/images/small_avatar.png"></span> <span class="description">{{activity.description}} </span>
         </div>
 
       </div>
@@ -215,6 +215,6 @@
     <script src="javascript/controllers/HomeController.js"></script>
 
     <!-- Services -->
-    <script src="javascript/services/emails.js"></script>
+    <script src="javascript/services/activities.js"></script>
   </body>
 </html>

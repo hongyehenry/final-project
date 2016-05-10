@@ -1,5 +1,5 @@
-app.controller('HomeController', ['$scope','emails', function($scope,emails) {
-  emails.success(function(data){
-    $scope.emails = data;
+app.controller('HomeController', ['$scope','activities', function($scope,activities) {
+  activities.success(function(data){
+    $scope.activities = data;
   });
 }]);
